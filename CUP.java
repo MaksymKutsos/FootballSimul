@@ -34,7 +34,7 @@ public class CUP {
             System.out.println(mapEntry.getKey() + "has strength  " +  mapEntry.getValue() );
 
 
-            if( max < mapEntry.getValue()){ // searh the Winer
+            if( max < mapEntry.getValue()){ // searh the Winer!
                 max = mapEntry.getValue();
                 winner = mapEntry.getKey();
 
